@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Projet React : Création de Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objectif
 
-## Available Scripts
+Le but de ce projet est de créer un portfolio interactif en utilisant React. Vous devrez manipuler des composants et des props pour afficher et organiser les différentes sections de votre portfolio.
 
-In the project directory, you can run:
+## Instructions
 
-### `npm start`
+1. Mise en place du projet
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   - Initialisez un nouveau projet React en utilisant Create React App ou tout autre outil de votre choix.
+   - Mettez en place une structure de fichiers appropriée pour votre application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Création des composants
 
-### `npm test`
+   - Identifiez les différentes sections que vous souhaitez inclure dans votre portfolio, telles que l'accueil, la présentation, les projets, les compétences, l'expérience, etc.
+   - Créez des composants React individuels pour chaque section. Vous pouvez les nommer en fonction de leur contenu, par exemple Accueil, Presentation, Projets, Competences, Experience, etc.
+   - Chaque composant doit être responsable de l'affichage de son contenu spécifique.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Utilisation des props
 
-### `npm run build`
+   - Déterminez les données spécifiques nécessaires pour chaque composant, telles que le titre, la description, les images, les compétences, les projets, etc.
+   - Utilisez des props pour passer ces données à vos composants à partir du composant parent.
+   - Assurez-vous que les composants reçoivent les props correctes et les utilisent pour afficher les informations appropriées.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Organisation du portfolio
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   - Concevez la mise en page globale de votre portfolio en utilisant des composants parent et enfants.
+   - Utilisez des composants de mise en page tels que des conteneurs, des grilles ou des flexbox pour organiser les différentes sections de votre portfolio.
+   - Intégrez vos composants individuels dans la structure de votre portfolio, en leur passant les props appropriées.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Style et personnalisation
 
-### `npm run eject`
+   - Ajoutez du CSS ou utilisez un framework de votre choix pour styliser votre portfolio.
+   - Personnalisez les couleurs, les polices, les marges, les paddings, etc., afin de créer un design attrayant et professionnel.
+   - Assurez-vous que votre portfolio est responsive et s'adapte à différents appareils et tailles d'écran.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. Contenu et données
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   - Ajoutez vos propres informations, projets, compétences, expérience, etc., à votre portfolio.
+   - Utilisez des données réelles ou fictives pour remplir les différentes sections de votre portfolio.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Soumission
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Une fois que vous avez terminé le projet, partagez votre code source via un lien GitHub ou tout autre moyen de votre choix.
+- Transmettre le projet à l'adresse email suivante : contact@yaniselmaleh.fr
+- En Objet : **IPSSI - BD 23.3 - ReactJS 07/07/23 - NOM PRENOM**
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bon travail et amusez-vous bien en créant votre portfolio avec React :)
